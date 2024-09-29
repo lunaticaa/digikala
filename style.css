@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'digikalaFont';
+  src: url('img/YekanV3.0/Yekan.woff') format('woff'),
+       url('img/YekanV3.0/Yekan.ttf') format('truetype');
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'digikalaFont';
+}
+
+#banner {
+  height: 60px;
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 128px 12px 128px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  padding: 10px 16px 0px 16px;
+}
+
+#search {
+  background-color: #F0F0F1;
+  padding: 10px 50px 10px 500px;
+  border-radius: 10px;
+  font-size: 12px; 
+}
+
+#a {
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e2;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 142px 0px 128px;
+  
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: row;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.head1 {
+  color: #62666d;
+  font-size: 13px;
+  padding-right: 16px;
+}
+
+.imghead {
+  padding-right: 12px;
+  padding-left: 4px;
+}
+
+.head{
+  color: #62666d;
+  font-size: 13px;
+}
+
+#order{
+  color: #424750;
+  font-size: 16px;
+  padding-right: 5px;
+  padding-left: 20px;
+  border-left: 1px solid #e0e0e2;
+}
+
+.slider {
+  width: 100%;
+  height: 400px;
+  padding-top: 8px;
+}
+
+.container6{
+  display: flex;
+  flex-direction: row;
+  padding: 35px 300px 35px 300px;
+}
+
+.icon{
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.imgicon{
+  height: 52px;
+  width: 52px;
+}
+
+.icontext{
+  font-size: 11px;
+  text-align: center;
+}
+
+.container7{
+  display: flex;
+  flex-direction: row;
+  background-color: #ef394e;
+  margin: 0px 300px 10px 300px;
+  border-radius: 15px;
+  padding: 20px 20px 10px 20px;
+}
+
+.pishnahad1{
+  text-align: center;
+  flex: 13%;
+  height: 245px;
+  background-color: white;
+  border-radius: 8px 0px 0px 8px;
+  border-left: 2px solid #ef394e;
+}
+
+.pishnahad-img{
+  height: 150px;
+  width: 150px;
+  margin-top: 12px;
+}
+
+.price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px 0px 15px;
+}
+
+.cost{
+  font-size: 16px;
+  margin: 0px;
+}
+
+.takhfif{
+  background-color: #ef394e;
+  font-size: 12px;
+  color: white;
+  padding: 3px 12px 0px 12px;
+  border-radius: 20px;
+}
+
+.qeimat{
+  color: #c8c9cc;
+  font-size: 12px;
+  text-decoration: line-through;
+  text-align: left;
+  padding: 10px 0px 0px 30px;
+}
+
+.pishnahad{
+  text-align: center;
+  flex: 13%;
+  height: 245px;
+  background-color: white;
+  border-left: 2px solid #ef394e;
+}
+
+.pishnahad2{
+  text-align: center;
+  flex: 13%;
+  height: 245px;
+  background-color: white;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.pishnahad-logo{
+  flex: 13%;
+  text-align: center;
+}
+
+.pishnahad-logo p{
+  text-align: center;
+  color: white;
+  flex: 100%;
+  font-size: 30px;
+}
+
+.container8{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 300px 30px 300px;
+}
+
+.banner{
+  border-radius: 15px;
+  height: 235px;
+  width: 314px;
+  margin-left: 15px;
+}
+
+.daste{
+  font-size: 21px;
+  text-align: center;
+  padding: 15px 0px 40px 0px;
+}
+
+.container9{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 350px 30px 350px;
+}
+
+.daste2{
+  font-size: 12px;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.daste-img{
+  height: 170px;
+  width: 170px;
+}
+
+.ax{
+  width: 644px;
+  height: 257px;
+  margin-right: 16px;
+  border-radius: 15px;
+}
+
+.pishnehaddigi {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+}
+
+.pishleft {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.pishcenter {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+}
+
+.pishright {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+  border-radius: 0px 15px 0px 0px;
+}
+
+.item {
+  background: #f2f2f2;
+  margin-top: 16px;
+  width: 84px;
+  height: 84px;
+  border-radius: 100%;
+}
+
+.itempish {
+  width: 60px;
+  margin-top: 12px;
+  height: 60px;
+}
+
+.itemtext{
+  font-size: 14px;
+}
